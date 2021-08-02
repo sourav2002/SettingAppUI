@@ -19,9 +19,9 @@
 
             <ImageView
                 android:id="@+id/back"
-                android:layout_width="22dp"
-                android:layout_height="22dp"
-                android:src="@drawable/back"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_arrow_back"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -80,7 +80,7 @@
                             android:layout_height="20dp"
                             android:layout_gravity="center"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/notification2"
+                            android:src="@drawable/notification"
                             app:tint="@color/white" />
                     </androidx.cardview.widget.CardView>
 
@@ -100,7 +100,7 @@
                         android:layout_width="16dp"
                         android:layout_height="16dp"
                         android:rotation="180"
-                        android:src="@drawable/back"
+                        android:src="@drawable/ic_arrow_back"
                         app:tint="#cdcdcd"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -136,11 +136,11 @@
                         app:layout_constraintTop_toTopOf="parent">
 
                         <ImageView
-                            android:layout_width="18dp"
-                            android:layout_height="18dp"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
                             android:layout_gravity="center_horizontal|center"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/tik"
+                            android:src="@drawable/done_tik"
                             app:tint="@color/white"
                            />
                     </androidx.cardview.widget.CardView>
@@ -161,7 +161,7 @@
                         android:layout_width="16dp"
                         android:layout_height="16dp"
                         android:rotation="180"
-                        android:src="@drawable/back"
+                        android:src="@drawable/ic_arrow_back"
                         app:tint="#cdcdcd"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -200,7 +200,7 @@
                             android:layout_height="20dp"
                             android:layout_gravity="center"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/messageicon"
+                            android:src="@drawable/message"
                             app:tint="@color/white" />
                     </androidx.cardview.widget.CardView>
 
@@ -220,7 +220,7 @@
                         android:layout_width="16dp"
                         android:layout_height="16dp"
                         android:rotation="180"
-                        android:src="@drawable/back"
+                        android:src="@drawable/ic_arrow_back"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -259,7 +259,7 @@
                             android:layout_height="20dp"
                             android:layout_gravity="center"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/lock2"
+                            android:src="@drawable/lock"
                             app:tint="@color/white" />
                     </androidx.cardview.widget.CardView>
 
@@ -279,7 +279,7 @@
                         android:layout_width="16dp"
                         android:layout_height="16dp"
                         android:rotation="180"
-                        android:src="@drawable/back"
+                        android:src="@drawable/ic_arrow_back"
                         app:tint="#cdcdcd"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -317,7 +317,7 @@
                             android:layout_height="20dp"
                             android:layout_gravity="center"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/pinkeypad"
+                            android:src="@drawable/key_lock"
                             app:tint="@color/white" />
                     </androidx.cardview.widget.CardView>
 
@@ -337,7 +337,7 @@
                         android:layout_width="16dp"
                         android:layout_height="16dp"
                         android:rotation="180"
-                        android:src="@drawable/back"
+                        android:src="@drawable/ic_arrow_back"
                         app:tint="#cdcdcd"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -375,7 +375,7 @@
                             android:layout_height="20dp"
                             android:layout_gravity="center"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/logout"
+                            android:src="@drawable/ic_logout"
                             app:tint="@color/white" />
                     </androidx.cardview.widget.CardView>
 
@@ -395,7 +395,7 @@
                         android:layout_width="16dp"
                         android:layout_height="16dp"
                         android:rotation="180"
-                        android:src="@drawable/back"
+                        android:src="@drawable/ic_arrow_back"
                         app:tint="#cdcdcd"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -434,7 +434,7 @@
                             android:layout_height="20dp"
                             android:layout_gravity="center"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/announcement"
+                            android:src="@drawable/ic_announcement2"
                             app:tint="@color/white" />
                     </androidx.cardview.widget.CardView>
 
@@ -454,7 +454,7 @@
                         android:layout_width="16dp"
                         android:layout_height="16dp"
                         android:rotation="180"
-                        android:src="@drawable/back"
+                        android:src="@drawable/ic_arrow_back"
                         app:tint="#cdcdcd"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -492,7 +492,7 @@
                             android:layout_height="20dp"
                             android:layout_gravity="center"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/bug"
+                            android:src="@drawable/bug_report"
                             app:tint="@color/white" />
                     </androidx.cardview.widget.CardView>
 
@@ -512,7 +512,7 @@
                         android:layout_width="16dp"
                         android:layout_height="16dp"
                         android:rotation="180"
-                        android:src="@drawable/back"
+                        android:src="@drawable/ic_arrow_back"
                         app:tint="#cdcdcd"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -551,7 +551,7 @@
                             android:layout_height="20dp"
                             android:layout_gravity="center"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/privacy"
+                            android:src="@drawable/ic_privacy_tip"
                             app:tint="@color/white" />
                     </androidx.cardview.widget.CardView>
 
@@ -571,7 +571,7 @@
                         android:layout_width="16dp"
                         android:layout_height="16dp"
                         android:rotation="180"
-                        android:src="@drawable/back"
+                        android:src="@drawable/ic_arrow_back"
                         app:tint="#cdcdcd"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -609,7 +609,7 @@
                             android:layout_height="20dp"
                             android:layout_gravity="center"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/orderhammer"
+                            android:src="@drawable/ic_hammer"
                             app:tint="@color/white" />
                     </androidx.cardview.widget.CardView>
 
@@ -629,7 +629,7 @@
                         android:layout_width="16dp"
                         android:layout_height="16dp"
                         android:rotation="180"
-                        android:src="@drawable/back"
+                        android:src="@drawable/ic_arrow_back"
                         app:tint="#cdcdcd"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
